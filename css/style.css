@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'head';
+    src: url("../font/Typo_SsangmunDongB.ttf");
+}
+ 
+@font-face {
+    font-family: 'cntnt';
+    src: url("../font/NanumGothicExtraBold.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrap {
+    width: 1902.5px;
+    height: 1000px;
+    background-color: gainsboro;
+    float: left;
+}
+
+.start_wrap {
+    width: 1902.5px;
+    height: 87px;
+    background-color: #0c151c;
+    float: left;
+}
+
+.madeby {
+    float: right;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    text-align: right;
+}
+
+.start_cntnt {
+    position: fixed;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 600px;
+    height: 65px;
+    font-family: 'head';
+    font-size: 50px;
+    background-color: #0c151c;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 65px;
+}
+
